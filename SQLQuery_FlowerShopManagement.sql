@@ -75,6 +75,7 @@
 
 -- add new column
 -- alter table SAN_PHAM add HINH_ANH image
+alter table CTHD add TONGTRIGIA money
 
 -- alter to NOT NULL
 --alter table KHACH_HANG alter column SODT_KH varchar(11) not null
