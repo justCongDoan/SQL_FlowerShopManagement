@@ -240,3 +240,7 @@ insert into SAN_PHAM(MASP, TENSP, LOAISP, SU_KIEN, MANCC, GIA, HINH_ANH) values 
 insert into SAN_PHAM(MASP, TENSP, LOAISP, SU_KIEN, MANCC, GIA, HINH_ANH) values ('SP048','Condolence 1','hoa cuc','condolence','NCC002','2500000', 'hoa_moka_tim.jpg')
 insert into SAN_PHAM(MASP, TENSP, LOAISP, SU_KIEN, MANCC, GIA, HINH_ANH) values ('SP049','Condolence 2','hoa cuc','condolence','NCC003','1500000', 'hoa_cuc_calimero_hong.png')
 insert into SAN_PHAM(MASP, TENSP, LOAISP, SU_KIEN, MANCC, GIA, HINH_ANH) values ('SP050','Heaven 1','hoa cuc','condolence','NCC004','1000000', 'hoa_cuc_calimero_trang.jpg')
+
+
+-- drop column
+alter table KHACH_HANG drop column DOANHSO
